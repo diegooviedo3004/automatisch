@@ -4,7 +4,7 @@ import updatedFieldInRecords from './updated-field-in-records.js';
 export default defineTrigger({
   name: 'Updated field in records',
   key: 'updatedFieldInRecords',
-  pollInterval: 15,
+  pollInterval: 1,
   description: 'Triggers when a field is updated in a record.',
   arguments: [
     {
